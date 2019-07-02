@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>FullPage JS Demo</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div id="fullPage">
+      <div class="section s1">
+        <div class="slide">
+          <h1>The First slide</h1>
+        </div>
+
+        <div class="slide">
+          <h1>The Secont slide</h1>
+        </div>
+
+        <div class="slide">
+          <h1>The Third slide</h1>
+        </div>
+      </div>
+
+      <div class="section s2">
+        <h1>The second Section</h1>
+      </div>
+
+      <div class="section s3">
+        <h1>The third Section <a href="#section2">Click</a></h1>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.js"></script>
+    <script>
+      new fullpage("#fullPage", {
+        autoScrolling: true,
+        navigation: true,
+        anchors: ["section1", "section2", "section3"],
+        navigationTooltips: ["Home", "About Us", "Contact"],
+        showActiveTooltip: true,
+        scrollingSpeed: 2000,
+        controlArrows: false,
+        slidesNavigation: true
+      });
+    </script>
+  </body>
+</html>
