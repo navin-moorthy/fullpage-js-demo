@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  Developed following the [Youtube video from Channel DesignCourse](https://www.youtube.com/watch?v=IeZSN6lWsWM)
+  Developed following the <a href="https://www.youtube.com/watch?v=IeZSN6lWsWM">Youtube video from Channel DesignCourse</a>
 </p>
 
 <p align="center">
@@ -36,7 +36,7 @@
 
 ## 🚀 Features
 
-- Basic Full Page JS Starter Project.
+- Basic  [FullPage JS](https://alvarotrigo.com/fullPage/) Starter Project.
 - Multiple Page and slide demonstrated
 ## Thanks
 
